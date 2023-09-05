@@ -1,18 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
-
-@font-face {
-	font-family: 'Gillroy-Bold';
-	src: url('./font/Gilroy-Bold.woff2');
-}
-@font-face {
-	font-family: 'Gillroy-Bold';
-	src: url('./font/Gilroy-Bold.woff2');
-}
-@font-face {
-	font-family: 'Gillroy-Bold';
-	src: url('./font/Gilroy-Bold.woff2');
-}
-
 * {
 	margin: 0;
 	padding: 0;
@@ -45,6 +31,9 @@ img {
 
 .navigation {
 	padding: 39px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .navigation__link {
@@ -56,7 +45,10 @@ img {
 .main {
 	margin-bottom: 197px;
 }
-
+.content{
+    display: flex;
+    justify-content: space-between;
+}
 .content__left-side {
 	max-width: 604px;
 }
@@ -85,6 +77,8 @@ img {
 }
 
 .content__btn-list {
+    display: flex;
+    gap: 20px;
 }
 
 .btn {
@@ -98,4 +92,12 @@ img {
 	padding: 15px 30px;
 	border: none;
 	cursor: pointer;
+}
+.btn__play{
+    display: flex;
+    gap: 10px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
 }
