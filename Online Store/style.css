@@ -101,7 +101,6 @@ body {
 }
 .header__nav-menu {
     display: flex;
-    justify-content: space-between;
     gap: 33px;
     align-items: end;
 }
@@ -110,25 +109,21 @@ body {
 }
 .banner {
     background: #f1e4e6;
+    margin-bottom: 65px;
 }
 .conteiner__second {
-    min-width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     gap: 63.42px;
-    margin-bottom: 65px;
 }
 .banner__text {
     display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-self: flex-start;
     margin-top: 290px;
     border-left: 12px solid #f16d7f;
     padding-left: 16px;
-    /* border: 1px solid #000; */
-    
 }
 .banner__text h2 {
     line-height: 37px;
@@ -178,6 +173,7 @@ body {
     color: #f16d7f;
     font-size: 24px;
     font-weight: 700;
+    line-height: 28.8px;
 }
 .main__cards2-img {
     width: 360px;
@@ -205,6 +201,7 @@ body {
     color: #f16d7f;
     font-size: 24px;
     font-weight: 700;
+    line-height: 28.8px;
 }
 .main__cards3-img {
     width: 360px;
@@ -232,6 +229,7 @@ body {
     color: #f16d7f;
     font-size: 24px;
     font-weight: 700;
+    line-height: 28.8px;
 }
 .main__cards4-img {
     width: 1140px;
@@ -259,6 +257,7 @@ body {
     color: #f16d7f;
     font-size: 24px;
     font-weight: 700;
+    line-height: 28.8px;
 }
 .big {
     grid-column: 1/4;
@@ -426,4 +425,68 @@ body {
     color: #f26376;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Планшеты */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        max-width: 736px;
+    }
+    .header__nav {
+        padding: 18px 16px 20px 16px;
+    }
+    .banner {
+        height: 368px;
+    }
+    .conteiner__second {
+        max-width: 770px;
+        gap: 39px;
+    }
+    .conteiner__second img {
+        width: 386px;
+        height: 368px;
+    }
+    .banner__text {
+        margin-top: 138px;
+    }
+    .banner__text h2 {
+        font-size: 44px;
+        line-height: 52.8px;
+    }
+    .banner__text h3 {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    .main__cards {
+        gap: 20px;
+        margin-bottom: 110px;
+    }
+    .main__cards1-img {
+        width: 232px;
+        height: 168px;
+        background: url("./img/Tablet/1.png") no-repeat;
+    }
+    .main__cards2-img {
+        width: 232px;
+        height: 168px;
+        background: url("./img/Tablet/2.png") no-repeat;
+    }
+    .main__cards3-img {
+        width: 232px;
+        height: 168px;
+        background: url("./img/Tablet/3.png") no-repeat;
+    }
+    .main__cards4-img {
+        width: 735px;
+        height: 117px;
+        background: url("./img/Tablet/4.png") no-repeat;
+    }
+    .fetured__items-text h2{
+        margin-bottom: 73px;
+    }
+    .fetured__items-cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 33px;
+    }
 }
