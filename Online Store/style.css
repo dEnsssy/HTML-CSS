@@ -481,12 +481,83 @@ body {
         height: 117px;
         background: url("./img/Tablet/4.png") no-repeat;
     }
-    .fetured__items-text h2{
+    .fetured__items-text h2 {
         margin-bottom: 73px;
     }
-    .fetured__items-cards{
+    .fetured__items-cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
         margin-bottom: 33px;
+    }
+}
+/* Телефоны */
+@media (max-width: 767px) {
+    .container {
+        max-width: 360px;
+    }
+    .header__nav {
+        padding: 18px 8px 20px 8px;
+    }
+    .header__nav-menu{
+        gap: 0px;
+    }
+    .hidden {
+        display: none;
+    }
+    .banner {
+        height: 363px;
+    }
+    .conteiner__second {
+        max-width: 375px;
+    }
+    .banner__text {
+        margin: 0 auto;
+        margin-top: 148px;
+    }
+    .banner__text h2 {
+        font-size: 38px;
+        line-height: 45.6px;
+    }
+    .banner__text h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main__cards {
+        gap: 32px;
+        grid-template-columns: 1fr;
+        /* grid-template-rows:1fr 1fr 1fr 1fr; */
+        margin-bottom: 64px;
+    }
+    .main__cards1-img {
+        width: 343px;
+        height: 247px;
+        background: url("./img/phone/1.png") no-repeat;
+    }
+    .main__cards2-img {
+        width: 343px;
+        height: 247px;
+        background: url("./img/phone/2.png") no-repeat;
+    }
+    .main__cards3-img {
+        width: 343px;
+        height: 247px;
+        background: url("./img/phone/3.png") no-repeat;
+    }
+    .main__cards4-img {
+        width: 344px;
+        height: 111px;
+        background: url("./img/phone/4.png") no-repeat;
+    }
+    .big {
+        grid-column: 1/1;
+        grid-row: 4/4;
+    }
+    .fetured__items-text h2{
+        margin-bottom: 64px;
+    }
+    .fetured__items-cards{
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 41px;
     }
 }
