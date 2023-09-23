@@ -686,8 +686,8 @@ body {
     display: flex;
     padding-top: 104px;
     padding-bottom: 104px;
-    gap: 30px;
     text-align: center;
+    justify-content: space-between;
 }
 .advantages__cards-1 img {
     margin-bottom: 28px;
@@ -769,7 +769,7 @@ body {
     height: 49px;
     width: 256px;
 }
-input::-webkit-input-placeholder {
+input::placeholder {
     color: #222224;
     opacity: 0.671;
 }
