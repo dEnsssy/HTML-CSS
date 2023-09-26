@@ -100,12 +100,10 @@ body {
     align-items: end;
 }
 .header__nav-menu {
+    position: relative;
     display: flex;
     gap: 33px;
     align-items: end;
-}
-.header__nav-menu-shop {
-    position: relative;
 }
 .header__nav-menu-shop-circle {
     width: 19px;
@@ -113,14 +111,14 @@ body {
     background: #f16d7f;
     border-radius: 50%;
     color: #fff;
-    padding: 1px 0 4px 0;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    padding: 2px 0 4px 0;
     font-size: 12px;
     position: absolute;
-    top: -9.5px;
+    top: 3px;
     right: -9.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-logos {
     background: #222222;
@@ -130,6 +128,7 @@ body {
     margin-bottom: 65px;
 }
 .conteiner__second {
+    position: relative;
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
@@ -159,20 +158,29 @@ body {
     color: #f16d7f;
 }
 .banner__menu {
-    display: none;
     position: absolute;
-    right: 148px;
+    right: 0;
+    top: 0;
     width: 232px;
     height: 570px;
     color: #000;
     background: white;
     padding: 32px 32px 20px 32px;
 }
+.hidden-menu{
+    display: none;
+}
 .banner__menu h1 {
     color: #000;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 24px;
+}
+.banner__menu svg{
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 16px;
 }
 .banner__menu h2 {
     color: #f16d7f;
