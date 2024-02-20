@@ -8,3 +8,10 @@ function toggleMenu() {
 
 burger.addEventListener('click', toggleMenu);
 menuClose.addEventListener("click", toggleMenu);
+
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
