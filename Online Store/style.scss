@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
 /* Обнуление  */
 @import "productPage";
+@import "catalogPage";
 * {
     padding: 0;
     margin: 0;
@@ -168,7 +169,7 @@ body {
     background: white;
     padding: 32px 32px 20px 32px;
 }
-.hidden-menu{
+.hidden-menu {
     display: none;
 }
 .banner__menu h1 {
@@ -177,7 +178,7 @@ body {
     font-weight: 700;
     margin-bottom: 24px;
 }
-.banner__menu svg{
+.banner__menu svg {
     cursor: pointer;
     position: absolute;
     top: 16px;
@@ -378,7 +379,7 @@ body {
 .fetured__items-cards1-img:hover .fetured__items-cards1-img-color {
     width: 100%;
     height: 100%;
-    background: url("/img/fetured-items/hover-color.png") ;
+    background: url("/img/fetured-items/hover-color.png");
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -774,7 +775,7 @@ body {
 .connection__content-right-form input {
     border-radius: 20px 0 0 20px;
     background: #e1e1e1;
-    padding: 0 22px ;
+    padding: 0 22px;
     font-size: 14px;
     height: 49px;
     width: 256px;
@@ -924,8 +925,8 @@ path {
     .connection__content-right h2 {
         line-height: 162%;
     }
-    .footer__content{
-        padding: 18px 16px 20px 16px; 
+    .footer__content {
+        padding: 18px 16px 20px 16px;
     }
 }
 /* Телефоны */
@@ -1013,15 +1014,15 @@ path {
         font-size: 18px;
         max-width: 353px;
     }
-    .connection__content-right h1{
+    .connection__content-right h1 {
         line-height: 153.2%;
     }
-    .connection__content-right h2{
+    .connection__content-right h2 {
         font-size: 14px;
         line-height: 153.2%;
     }
     .footer__content {
-    flex-direction: column-reverse;
-    gap: 40px ;
+        flex-direction: column-reverse;
+        gap: 40px;
     }
 }
