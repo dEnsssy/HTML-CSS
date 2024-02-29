@@ -1,0 +1,14 @@
+button:hover {
+    background: #f5f3f3;
+    border: 1px solid #f16d7f;
+    color: grey;
+}
+
+.header button:not(.notAnim):hover {
+    background: none;
+    border: none;
+}
+
+button {
+    transition: all 0.3s;
+}
